@@ -1,3 +1,29 @@
+# Projeto de Testes Automatizados
+
+Este repositório contém testes automatizados para validação de funcionalidades do site, utilizando Robot Framework.
+
+## Tecnologias Utilizadas
+- **Robot Framework**: Framework para automação de testes.
+- **Biblioteca Browser**: Biblioteca para interação com navegadores.
+- **Python**: Linguagem utilizada para desenvolvimento e execução dos testes.
+
+## Configuração do Ambiente
+
+1. Instale o [Python](https://www.python.org/)
+2. Instale o Robot Framework e bibliotecas necessárias:
+   ```sh
+   pip install robotframework
+   ```
+3. Clone este repositório e navegue até o diretório raiz:
+   ```sh
+   git clone https://github.com/seuusuario/seuprojeto.git
+   cd seuprojeto
+   ```
+4. Execute os testes com o comando:
+   ```sh
+   robot tests/
+   ```
+
 ## Casos de Teste
 
 ### Caso de Teste: Login com Usuário Válido
